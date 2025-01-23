@@ -20,7 +20,7 @@ function Loyalty() {
           <img
             src="https://cdn-kmcol.nitrocdn.com/xcUNXNuLyTBLsehjJygWozGCdXbzHfZq/assets/images/optimized/rev-9bb4948/rockfordsystems.com/wp-content/uploads/2023/11/qr-code-RS-product-manuals.png"
             alt="QR Code"
-            style={{ maxWidth: '200px', height: 'auto', display: 'block', margin: '0 auto' }}
+            style={{ maxWidth: '130px', height: 'auto', display: 'block', margin: '0 auto' }}
           />
         </div>
         <p className="mt-3" style={{ fontSize: '1.2rem' }}>

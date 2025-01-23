@@ -8,7 +8,7 @@ function CreateComposition() {
 
   const perfumes = [
     { id: 1, name: 'Rose Elegance' },
-    { id: 2, name: 'Mystic Oud' },
+    { id: 2, name: 'Mystic Oud' },  
     { id: 3, name: 'Citrus Breeze' },
     { id: 4, name: 'Vanilla Dream' },
   ];
@@ -66,8 +66,8 @@ function CreateComposition() {
             </Button>
           </div>
 
-          <div style={{ marginTop: 'min(100px, 20vh)' }} className="d-flex justify-content-center">
-            <img src="https://cdn-icons-png.flaticon.com/512/9361/9361223.png" alt="perfume bottle" width="200px" />
+          <div style={{ marginTop: 'min(40px, 20vh)' }} className="d-flex justify-content-center">
+            <img src="https://cdn-icons-png.flaticon.com/512/9361/9361223.png" alt="perfume bottle" width="75px" />
           </div>
         </Form>
       </Container>
