@@ -5,7 +5,7 @@ function Loyalty() {
   return (
     <div className="bg-dark text-white p-4" style={{ minHeight: '100vh' }}>
       <Container className="mt-4 text-center">
-        <h1 className="text-center mb-5 display-3">Perfumat</h1>
+        <h1 className="text-center mb-4 display-3">Perfumat</h1>
         <h3 className='mb-4'>Punkty za zakupy</h3>
 
         <div
@@ -27,7 +27,7 @@ function Loyalty() {
           Zeskanuj poniższy kod QR w automacie, aby zbierać punkty za zakupy.
         </p>
 
-        <div className="mt-5">
+        <div className="mt-4">
           <h3 className='mb-4'>Zaproś znajomego</h3>
           <p style={{ fontSize: '1.1rem' }}>
             Podziel się z innymi możliwością dołączenia do programu lojalnościowego Perfumat!
