@@ -3,8 +3,8 @@ import { Container, ListGroup, Button } from 'react-bootstrap';
 
 function UserCompositions() {
   const compositions = [
-    { id: 1, title: 'Kompozycja nr 1', createdAt: '12-11-2024' },
-    { id: 2, title: 'Kompozycja nr 2', createdAt: '12-12-2024' },
+    { id: 1, title: 'Kompozycja 1', createdAt: '17 marca' },
+    { id: 2, title: 'Kompozycja 2', createdAt: '12 lutego' },
   ];
 
   return (
@@ -12,7 +12,7 @@ function UserCompositions() {
       <Container className="mt-4">
       <h1 className="text-center mb-5 display-3">Perfumat</h1>
 
-        <h2 className='mb-4'>Twoje kompozycje</h2>
+        <h2 className='mb-4 text-center'>Twoje kompozycje</h2>
         <ListGroup>
           {compositions.map((composition) => (
             <ListGroup.Item key={composition.id} className="d-flex justify-content-between">
